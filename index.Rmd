@@ -1,0 +1,97 @@
+---
+title: "Claudiano C. da Cruz Neto"
+image: "claudiano.jpg"
+links:
+  - label: Github
+    url: "https://github.com/cccneto"
+  - label: Researchgate
+    url: "https://www.researchgate.net/profile/Claudiano-Cruz-Neto"
+  - label: Twitter
+    url: "https://twitter.com/ClaudianoNeto"
+  - label: E-mail
+    url: "mailto: cneto@ufbr.edu.br"
+output:
+  postcards::trestles
+site: distill::distill_website
+---
+
+<!-- The postcard had a useless second scrollbar (in addition to the big one of distill). For some reason, I couldn't remove it with the CSS in custom.css. My only solution is to modify the source of the postcards::trestle template to remove this scrollbar. -->
+```{r, include = FALSE}
+trestles_orig <- readLines(
+  system.file("pandoc_templates/trestles.html",
+              package = "postcards")
+)
+trestles_mod <- trestles_orig
+trestles_mod[
+  which(
+    grepl(
+      'class="d-flex flex-column col px-5 align-items-center align-self-center mh-100" style="overflow-y: scroll;"',
+      trestles_mod
+    )
+  )
+] <- '<div class="d-flex flex-column col px-5 align-items-center align-self-center mh-100" style="overflow-y: none;">'
+cat(paste(trestles_mod, collapse = "\n"), file = system.file("pandoc_templates/trestles.html",
+              package = "postcards"))
+```
+
+<br>
+
+<center>
+<ul class="list-inline">
+  <li class="list-inline-item">
+    <a href="index.html">
+      <button type="button" class="btn btn-outline-dark mb-2">
+                        Português
+                      </button>
+                    </a>
+                  </li>
+
+  <li class="list-inline-item">
+    <a href="index_en.html">
+      <button type="button" class="btn btn-outline-dark mb-2">
+                        English
+                      </button>
+                    </a>
+                  </li>
+                  
+</ul>
+</center>
+
+Welcome to my website! My name is Claudiano Neto, and I am an economist. I obtained my Ph.D. in Economics at the [University of Brasilia (UNB)](http://www.economia.unb.br/index.php/pos-graduacao/), Brazil. Currently, I am an Assistant Professor at the [Center of Agrarian Sciences, Environmental and Biological](https://www.ufrb.edu.br/ccaab/) at [Federal University of Recôncavo da Bahia](https://ufrb.edu.br/portal/). My research interests includes Environmental and Natural Resource Economics, Methods for the Environmental Valuation,  Water allocation and Water Pricing, Public Policy Evaluation. If you need some help, and you think i could help you, please let me know. 
+
+<br>
+
+If you want to contact me, the best way is by email or via Twitter!
+
+<br>
+
+:::: {style="display: grid; grid-template-columns: 40% 50%; grid-column-gap: 30px; line-height: 1.5rem;"}
+
+::: {}
+<span style = "font-size: 1.5rem; font-weight: 600;"> Interests </span>
+
+* Data analysis/Economics
+
+* Programming in R
+
+* Environmental Economics
+
+* Conservation
+:::
+
+::: {}
+<span style = "font-size: 1.4rem; font-weight: 600;"> Education </span>
+
+<ul>
+ 
+<li style = "list-style: none; background-image: url(graduation-cap-solid.png); background-repeat: no-repeat;  background-size: 1.2rem; padding-left: 2rem;"> PhD in [Economics](http://www.unb.br/), 2018, University of Brasilia </li>
+<br>
+<li style = "list-style: none; background-image: url(graduation-cap-solid.png); background-repeat: no-repeat;  background-size: 1.2rem; padding-left: 2rem;">   [Master's degree in Environment and Regional development](https://www.uesc.br), 2009, State University of Santa Cruz  </li>
+<br>
+<li style = "list-style: none; background-image: url(graduation-cap-solid.png); background-repeat: no-repeat;  background-size: 1.2rem; padding-left: 2rem;">    [Bachelor of Economics](http://www.uesc.br), 2006, State University of Santa Cruz
+</li>
+<br>
+
+</ul>
+:::
+::::
