@@ -1,0 +1,19 @@
+---
+title: "Teste de Postagem"
+description: |
+  A short description of the post.
+author:
+  - name: Unknown
+date: 06-02-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Teste https://claudianoneto.netlify.app/https://claudianoneto.netlify.app/ https://claudianoneto.netlify.app/ 
+
