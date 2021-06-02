@@ -26,7 +26,7 @@ navbar:
         - text: "Nome3"
           href: https://github.com/cccneto/
     - text: "CV"
-      href: cv.html
+      href: http://lattes.cnpq.br/4440101316624835
   source_url: https://github.com/cccneto
 base_url: cccneto.github.io/website/
 repository_url: https://github.com/cccneto/website
