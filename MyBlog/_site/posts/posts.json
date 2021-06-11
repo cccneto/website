@@ -1,0 +1,19 @@
+[
+  {
+    "path": "posts/welcome/",
+    "title": "Blog Econ Amb",
+    "description": "Olá, bem vindxs ao meu blog! Esse espaço serve para compartilhar algumas idéias que venho desenvolvendo em minhas pesquisas na área da Economia Ambiental ou oriundas de análise de trabalhos de outrxs pesquisadorxs.",
+    "author": [
+      {
+        "name": "Claudiano Cruz Neto",
+        "url": {}
+      }
+    ],
+    "date": "2021-06-10",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-06-10T13:41:14-03:00",
+    "input_file": "welcome.knit.md"
+  }
+]
