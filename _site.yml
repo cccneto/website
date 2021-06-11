@@ -27,8 +27,8 @@ navbar:
           href: https://github.com/cccneto/
     - text: "CV"
       href: http://lattes.cnpq.br/4440101316624835
-  source_url: https://github.com/cccneto
-base_url: cccneto.github.io/website/
+  source_url: https://cneto.netlify.app/
+base_url: https://cneto.netlify.app/
 repository_url: https://github.com/cccneto/website
 output:
   distill::distill_article:

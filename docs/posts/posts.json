@@ -1,25 +1,19 @@
 [
   {
     "path": "posts/2021-06-02-teste-de-postagem/",
-    "title": "Análise de Autos de Infrações Ambientais aplicados pelo IBAMA",
+    "title": "Teste de Postagem",
     "description": "A short description of the post.",
     "author": [
       {
-        "name": "Claudiano C. Cruz Neto",
+        "name": "Unknown",
         "url": {}
       }
     ],
     "date": "2021-06-02",
-    "categories": [
-      "R",
-      "Dados Ambientais",
-      "Multas Ambientais"
-    ],
-    "contents": "\r\nRealizando Raspagem dos Dados via Ibamam Package\r\n\r\n\r\n\r\nRealizando join com base amazon legal\r\nRespondendo as perguntas chaves\r\nQual estado tem o maior número de multas distribuidas?\r\n\r\n\r\n\r\n\r\n\r\n\r\nQual estado tem o maior número de multas distribuidas por tipo de auto?\r\n\r\n\r\n\r\nQual Estado tem o maior montante de multas distribuidas (em milhões de reais ($)?\r\n\r\n\r\n\r\n\r\n\r\n\r\nMultas distribuidas por ano\r\n\r\n\r\n\r\nNúmero de multas distribuidas por tipos de auto por ano\r\n\r\n\r\n\r\nQual o tipo de infração mais comum nas multas distribuidas?\r\n\r\n\r\n\r\nQual a distribuição de multas por tipo de enquadramento juridico?\r\n\r\n# A tibble: 3 x 2\r\n  enquadramentoJuridico Quantidade\r\n  <fct>                      <int>\r\n1 CPF                       401443\r\n2 CNPJ                      202009\r\n3 <NA>                       30527\r\n\r\nQuais são as 30 empresas mais multadas pelo Ibama?\r\n\r\n# A tibble: 30 x 2\r\n   nomeRazaoSocial                                       Quantidade\r\n   <chr>                                                      <int>\r\n 1 PETROLEO BRASILEIRO S/A - PETROBRAS                         1036\r\n 2 COMPANHIA DE SANEAMENTO DO PARANÁ - SANEPAR                  314\r\n 3 C. A. GASPAROTO COMÉRCIO E REPRESENTAÇÕES LTDA-ME            216\r\n 4 DNIT-DEPARTAMENTO NACIONAL DE INFRAEST DE TRANSPORTES        174\r\n 5 JOAO BATISTA DA SILVA                                        129\r\n 6 JOSE CARLOS DA SILVA                                         129\r\n 7 COMPANHIA SIDERURGICA DO PARÁ - COSIPAR                      125\r\n 8 JOSE ANTONIO DA SILVA                                        122\r\n 9 LUIZ CARLOS DA SILVA                                         115\r\n10 PETROBRAS - PETROLEO BRASILEIRO S.A.                         114\r\n# ... with 20 more rows\r\n\r\nQual a situação/status de débito das multas distribuidas (somente as 15 categorias mais frequentes)?\r\n\r\n\r\n\r\n\r\n\r\n\r\nQuantidades de multas aplicadas por Ano\r\n\r\n\r\n\r\n\r\n\r\n\r\nDistribuição das multas por Estado\r\n\r\n\r\n\r\nAutos de infraçao por enquadramento juridico e estados\r\n\r\n\r\n\r\n\r\n\r\n\r\nAutos de Infração por tipo de Infração, Brasil - 1996-2021\r\n\r\n\r\n\r\n\r\n\r\n\r\nAutos de Infração por tipo de Infração, Minas Gerais - 1996-2021\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-    "preview": "posts/2021-06-02-teste-de-postagem/teste-de-postagem_files/figure-html5/unnamed-chunk-7-1.png",
-    "last_modified": "2021-06-10T16:40:32-03:00",
-    "input_file": {},
-    "preview_width": 1248,
-    "preview_height": 768
+    "categories": [],
+    "contents": "\r\nTeste https://claudianoneto.netlify.app/https://claudianoneto.netlify.app/ https://claudianoneto.netlify.app/\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-06-11T14:50:37-03:00",
+    "input_file": {}
   }
 ]
